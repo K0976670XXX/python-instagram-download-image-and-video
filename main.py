@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from sys import path
 from os import getcwd, chdir
 print(" Old cwd = " + getcwd())#取得當前系統環境位置
-chdir('D:/data/Desktop/')#path[0])#將當前環境位置設為當前"檔案位置"
+chdir(path[0])#將當前環境位置設為當前"檔案位置"
 print(" New cwd = " + getcwd())
 print("========================")
 
